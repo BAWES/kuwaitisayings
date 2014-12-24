@@ -1,6 +1,7 @@
 <?php
 /* @var $this SayingController */
 /* @var $model Saying */
+$this->pageTitle = "Saying - ".$model->saying_saying; 
 
 $this->breadcrumbs=array(
 	'Sayings'=>array('index'),
@@ -14,7 +15,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>Saying - <?php echo $model->saying_saying; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

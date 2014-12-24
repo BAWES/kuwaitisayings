@@ -1,6 +1,7 @@
 <?php
 /* @var $this RequestController */
 /* @var $model Request */
+$this->pageTitle = "View Request";
 
 $this->breadcrumbs=array(
 	'Requests'=>array('index'),
@@ -15,7 +16,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>View Request #<?php echo $model->request_id; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

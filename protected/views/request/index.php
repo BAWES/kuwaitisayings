@@ -1,6 +1,7 @@
 <?php
 /* @var $this RequestController */
 /* @var $model Request */
+$this->pageTitle = "Manage Requests";
 
 $this->breadcrumbs=array(
 	'Requests',
@@ -24,7 +25,6 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Requests</h1>
 
 <?php $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'request-grid',

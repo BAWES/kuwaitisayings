@@ -288,3 +288,25 @@ Stack trace:
 #17 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
 #18 /Users/BAWES/Sites/kuwaitisayings/index.php(14): CWebApplication->run()
 REQUEST_URI=/~BAWES/kuwaitisayings/index.php/site/login
+2014/12/24 21:07:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.html".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('index.html')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('index.html')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('saying/index.ht...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/saying/index.html
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/saying/3
+---
+2014/12/24 21:08:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.html".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('index.html')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('index.html')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('saying/index.ht...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/saying/index.html
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/saying/create
+---

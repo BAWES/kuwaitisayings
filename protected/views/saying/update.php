@@ -1,7 +1,7 @@
 <?php
 /* @var $this SayingController */
 /* @var $model Saying */
-
+$this->pageTitle = "Update Saying";
 $this->breadcrumbs=array(
 	'Sayings'=>array('index'),
 	$model->saying_id=>array('view','id'=>$model->saying_id),
@@ -15,6 +15,5 @@ $this->menu=array(
 );
 ?>
 
-<h1>Update Saying <?php echo $model->saying_id; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

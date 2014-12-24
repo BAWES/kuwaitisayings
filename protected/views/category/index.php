@@ -1,6 +1,7 @@
 <?php
 /* @var $this CategoryController */
 /* @var $model Category */
+$this->pageTitle = "Manage Categories";
 
 $this->breadcrumbs=array(
 	'Categories',
@@ -24,7 +25,6 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Categories</h1>
 
 <?php $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'category-grid',

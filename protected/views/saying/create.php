@@ -1,6 +1,7 @@
 <?php
 /* @var $this SayingController */
 /* @var $model Saying */
+$this->pageTitle = "Add Saying";
 
 $this->breadcrumbs=array(
 	'Sayings'=>array('index'),
@@ -12,6 +13,5 @@ $this->menu=array(
 );
 ?>
 
-<h1>Add Saying</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

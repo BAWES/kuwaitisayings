@@ -1,7 +1,7 @@
 <?php
 /* @var $this SayingController */
 /* @var $model Saying */
-
+$this->pageTitle = "Manage Sayings";
 $this->breadcrumbs=array(
 	'Sayings',
 );
@@ -23,8 +23,6 @@ $('.search-form form').submit(function(){
 });
 ");
 ?>
-
-<h1>Manage Sayings</h1>
 
 
 <?php $this->widget('zii.widgets.grid.CGridView', array(

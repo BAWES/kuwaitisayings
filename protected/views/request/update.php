@@ -1,6 +1,7 @@
 <?php
 /* @var $this RequestController */
 /* @var $model Request */
+$this->pageTitle = "Update Request";
 
 $this->breadcrumbs=array(
 	'Requests'=>array('index'),
@@ -14,7 +15,5 @@ $this->menu=array(
 	array('label'=>'View Request', 'url'=>array('view', 'id'=>$model->request_id)),
 );
 ?>
-
-<h1>Update Request <?php echo $model->request_id; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

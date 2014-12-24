@@ -1,6 +1,7 @@
 <?php
 /* @var $this CategoryController */
 /* @var $model Category */
+$this->pageTitle = "Category - ".$model->category_name;
 
 $this->breadcrumbs=array(
 	'Categories'=>array('index'),
