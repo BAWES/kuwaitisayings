@@ -1,0 +1,246 @@
+2014/12/23 19:01:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\wamp\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\wamp\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('saying/admin')
+#3 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\kuwaitisayings\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/kuwaitisayings/index.php/saying/admin
+HTTP_REFERER=http://localhost/kuwaitisayings/index.php/saying/1
+---
+2014/12/23 20:17:07 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `saying_category` (`category_id`, `saying_id`) VALUES (:yp0, :yp1).
+in C:\wamp\www\kuwaitisayings\protected\controllers\SayingController.php (46)
+in C:\wamp\www\kuwaitisayings\index.php (13)
+2014/12/23 20:17:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `saying_category` (`category_id`, `saying_id`) VALUES (:yp0, :yp1)' in C:\wamp\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\wamp\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\wamp\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\wamp\www\kuwaitisayings\protected\controllers\SayingController.php(46): CActiveRecord->save()
+#3 [internal function]: SayingController->actionView('3')
+#4 C:\wamp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SayingController), Array)
+#5 C:\wamp\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SayingController), Object(ReflectionMethod), Array)
+#6 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\wamp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\wamp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\wamp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\wamp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\wamp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#15 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('saying/view')
+#16 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\wamp\www\kuwaitisayings\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/kuwaitisayings/index.php/saying/3?category=3
+HTTP_REFERER=http://localhost/kuwaitisayings/index.php/saying/3?category=3
+---
+2014/12/23 20:23:26 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-6' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `saying_category` (`category_id`, `saying_id`) VALUES (:yp0, :yp1).
+in C:\wamp\www\kuwaitisayings\protected\controllers\SayingController.php (46)
+in C:\wamp\www\kuwaitisayings\index.php (13)
+2014/12/23 20:23:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-6' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `saying_category` (`category_id`, `saying_id`) VALUES (:yp0, :yp1)' in C:\wamp\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\wamp\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\wamp\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\wamp\www\kuwaitisayings\protected\controllers\SayingController.php(46): CActiveRecord->save()
+#3 [internal function]: SayingController->actionView('3')
+#4 C:\wamp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SayingController), Array)
+#5 C:\wamp\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SayingController), Object(ReflectionMethod), Array)
+#6 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\wamp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\wamp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\wamp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\wamp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\wamp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#15 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('saying/view')
+#16 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\wamp\www\kuwaitisayings\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/kuwaitisayings/index.php/saying/3?category=6
+HTTP_REFERER=http://localhost/kuwaitisayings/index.php/saying/3?category=6
+---
+2014/12/23 20:23:34 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `saying_category` (`category_id`, `saying_id`) VALUES (:yp0, :yp1).
+in C:\wamp\www\kuwaitisayings\protected\controllers\SayingController.php (46)
+in C:\wamp\www\kuwaitisayings\index.php (13)
+2014/12/23 20:23:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '3-3' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `saying_category` (`category_id`, `saying_id`) VALUES (:yp0, :yp1)' in C:\wamp\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\wamp\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\wamp\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\wamp\www\kuwaitisayings\protected\controllers\SayingController.php(46): CActiveRecord->save()
+#3 [internal function]: SayingController->actionView('3')
+#4 C:\wamp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SayingController), Array)
+#5 C:\wamp\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SayingController), Object(ReflectionMethod), Array)
+#6 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\wamp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\wamp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\wamp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\wamp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\wamp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#15 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('saying/view')
+#16 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\wamp\www\kuwaitisayings\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/kuwaitisayings/index.php/saying/3?category=3
+HTTP_REFERER=http://localhost/kuwaitisayings/index.php/saying/3?delete=3
+---
+2014/12/23 20:26:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IN(6) ORDER BY category_sort' at line 1. The SQL statement executed was: SELECT * FROM `category` `t` WHERE NOT IN(6) ORDER BY category_sort.
+in C:\wamp\www\kuwaitisayings\protected\views\saying\view.php (47)
+in C:\wamp\www\kuwaitisayings\protected\controllers\SayingController.php (59)
+in C:\wamp\www\kuwaitisayings\index.php (13)
+2014/12/23 20:26:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IN(6) ORDER BY category_sort' at line 1. The SQL statement executed was: SELECT * FROM `category` `t` WHERE NOT IN(6) ORDER BY category_sort' in C:\wamp\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 C:\wamp\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\kuwaitisayings\protected\views\saying\view.php(47): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\kuw...')
+#5 C:\wamp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\kuw...', Array, true)
+#6 C:\wamp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\kuw...', Array, true)
+#7 C:\wamp\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#8 C:\wamp\www\kuwaitisayings\protected\controllers\SayingController.php(59): CController->render('view', Array)
+#9 [internal function]: SayingController->actionView('3')
+#10 C:\wamp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SayingController), Array)
+#11 C:\wamp\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SayingController), Object(ReflectionMethod), Array)
+#12 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\wamp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\wamp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\wamp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\wamp\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\wamp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#21 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('saying/view')
+#22 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\wamp\www\kuwaitisayings\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/kuwaitisayings/index.php/saying/3
+---
+2014/12/23 20:26:42 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IN(6) ORDER BY category_sort' at line 1. The SQL statement executed was: SELECT * FROM `category` `t` WHERE IN(6) ORDER BY category_sort.
+in C:\wamp\www\kuwaitisayings\protected\views\saying\view.php (47)
+in C:\wamp\www\kuwaitisayings\protected\controllers\SayingController.php (59)
+in C:\wamp\www\kuwaitisayings\index.php (13)
+2014/12/23 20:26:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IN(6) ORDER BY category_sort' at line 1. The SQL statement executed was: SELECT * FROM `category` `t` WHERE IN(6) ORDER BY category_sort' in C:\wamp\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 C:\wamp\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\kuwaitisayings\protected\views\saying\view.php(47): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\kuw...')
+#5 C:\wamp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\kuw...', Array, true)
+#6 C:\wamp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\kuw...', Array, true)
+#7 C:\wamp\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#8 C:\wamp\www\kuwaitisayings\protected\controllers\SayingController.php(59): CController->render('view', Array)
+#9 [internal function]: SayingController->actionView('3')
+#10 C:\wamp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SayingController), Array)
+#11 C:\wamp\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SayingController), Object(ReflectionMethod), Array)
+#12 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\wamp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\wamp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\wamp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\wamp\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\wamp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#21 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('saying/view')
+#22 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\wamp\www\kuwaitisayings\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/kuwaitisayings/index.php/saying/3
+---
+2014/12/23 20:28:18 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`bawes_sayingsapp`.`saying_category`, CONSTRAINT `saying_category_ibfk_1` FOREIGN KEY (`saying_id`) REFERENCES `saying` (`saying_id`)). The SQL statement executed was: DELETE FROM `saying` WHERE `saying`.`saying_id`=3.
+in C:\wamp\www\kuwaitisayings\protected\controllers\SayingController.php (111)
+in C:\wamp\www\kuwaitisayings\index.php (13)
+2014/12/23 20:28:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`bawes_sayingsapp`.`saying_category`, CONSTRAINT `saying_category_ibfk_1` FOREIGN KEY (`saying_id`) REFERENCES `saying` (`saying_id`)). The SQL statement executed was: DELETE FROM `saying` WHERE `saying`.`saying_id`=3' in C:\wamp\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\wamp\yii\framework\db\ar\CActiveRecord.php(1802): CDbCommand->execute()
+#1 C:\wamp\yii\framework\db\ar\CActiveRecord.php(1222): CActiveRecord->deleteByPk('3')
+#2 C:\wamp\www\kuwaitisayings\protected\controllers\SayingController.php(111): CActiveRecord->delete()
+#3 [internal function]: SayingController->actionDelete('3')
+#4 C:\wamp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SayingController), Array)
+#5 C:\wamp\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SayingController), Object(ReflectionMethod), Array)
+#6 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\yii\framework\web\CController.php(1116): CFilterChain->run()
+#9 C:\wamp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#10 C:\wamp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\wamp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\wamp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\wamp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\wamp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\wamp\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\wamp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\wamp\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#18 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('saying/delete')
+#19 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\wamp\www\kuwaitisayings\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/kuwaitisayings/index.php/saying/delete/3
+HTTP_REFERER=http://localhost/kuwaitisayings/index.php/saying/3
+---
+2014/12/23 20:28:44 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY category_sort' at line 1. The SQL statement executed was: SELECT * FROM `category` `t` WHERE category_id NOT IN() ORDER BY category_sort.
+in C:\wamp\www\kuwaitisayings\protected\views\saying\view.php (47)
+in C:\wamp\www\kuwaitisayings\protected\controllers\SayingController.php (59)
+in C:\wamp\www\kuwaitisayings\index.php (13)
+2014/12/23 20:28:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY category_sort' at line 1. The SQL statement executed was: SELECT * FROM `category` `t` WHERE category_id NOT IN() ORDER BY category_sort' in C:\wamp\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 C:\wamp\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\kuwaitisayings\protected\views\saying\view.php(47): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\wamp\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\kuw...')
+#5 C:\wamp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\kuw...', Array, true)
+#6 C:\wamp\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\kuw...', Array, true)
+#7 C:\wamp\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#8 C:\wamp\www\kuwaitisayings\protected\controllers\SayingController.php(59): CController->render('view', Array)
+#9 [internal function]: SayingController->actionView('3')
+#10 C:\wamp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SayingController), Array)
+#11 C:\wamp\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SayingController), Object(ReflectionMethod), Array)
+#12 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\wamp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\wamp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\wamp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\wamp\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\wamp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#21 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('saying/view')
+#22 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\wamp\www\kuwaitisayings\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/kuwaitisayings/index.php/saying/3?delete=6
+HTTP_REFERER=http://localhost/kuwaitisayings/index.php/saying/3?delete=5
+---
+2014/12/23 20:33:43 [error] [php] Use of undefined constant id - assumed 'id' (C:\wamp\www\kuwaitisayings\protected\views\category\view.php:39)
+Stack trace:
+#0 C:\wamp\yii\framework\web\CController.php(869): CategoryController->renderFile()
+#1 C:\wamp\yii\framework\web\CController.php(782): CategoryController->renderPartial()
+#2 C:\wamp\www\kuwaitisayings\protected\controllers\CategoryController.php(44): CategoryController->render()
+#3 unknown(0): CategoryController->actionView()
+#4 C:\wamp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 C:\wamp\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\wamp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\wamp\yii\framework\web\filters\CFilterChain.php(133): CategoryController->runAction()
+#8 C:\wamp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\wamp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 C:\wamp\yii\framework\web\filters\CInlineFilter.php(58): CategoryController->filterAccessControl()
+#11 C:\wamp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 C:\wamp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\wamp\yii\framework\web\CController.php(265): CategoryController->runActionWithFilters()
+#14 C:\wamp\yii\framework\web\CWebApplication.php(282): CategoryController->run()
+#15 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\wamp\www\kuwaitisayings\index.php(13): CWebApplication->run()
+REQUEST_URI=/kuwaitisayings/index.php/category/3
+in C:\wamp\www\kuwaitisayings\protected\views\category\view.php (39)
+in C:\wamp\www\kuwaitisayings\protected\controllers\CategoryController.php (44)
+in C:\wamp\www\kuwaitisayings\index.php (13)
