@@ -1,4 +1,7 @@
 <?php
+putenv("TZ=Asia/Kuwait");
+date_default_timezone_set("Asia/Kuwait");
+
 
 // change the following paths if necessary
 $yii=dirname(__FILE__).'/../../yii/framework/yii.php';
