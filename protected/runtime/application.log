@@ -310,3 +310,311 @@ Stack trace:
 REQUEST_URI=/~BAWES/kuwaitisayings/index.php/saying/index.html
 HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/saying/create
 ---
+2014/12/24 21:52:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user1.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user2.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user3.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user4.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user1.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user3.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user4.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user2.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user1.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user3.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user4.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user2.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user1.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user2.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user3.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user4.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user1.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user4.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user3.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user2.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user1.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user2.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user3.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user4.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user1.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user2.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user4.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
+2014/12/24 21:52:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /Users/BAWES/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/BAWES/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /Users/BAWES/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /Users/BAWES/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('category/images...')
+#3 /Users/BAWES/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/BAWES/Sites/kuwaitisayings/index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user3.png
+HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
+---
