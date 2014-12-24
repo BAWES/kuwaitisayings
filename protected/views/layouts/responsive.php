@@ -57,7 +57,7 @@
                     
                     <h5 class="leftpanel-title">Navigation</h5>
                     <ul class="nav nav-pills nav-stacked">
-                        <li class="active"><a href="<?php echo Yii::app()->createUrl('saying/index');?>"><i class="fa fa-file-text"></i> <span>Sayings</span></a></li>
+                        <li class=""><a href="<?php echo Yii::app()->createUrl('saying/index');?>"><i class="fa fa-file-text"></i> <span>Sayings</span></a></li>
                         <li><a href="<?php echo Yii::app()->createUrl('category/index');?>"><i class="fa fa-list"></i> <span>Categories</span></a></li>
                         <li><a href="<?php echo Yii::app()->createUrl('request/index');?>"><i class="fa fa-list-alt"></i> <span>Requests</span></a></li>
                         
@@ -85,7 +85,7 @@
                         </div><!-- media -->
                     </div>
                     
-                    <div class="contentpanel">
+                    <div class="contentpanel arabic">
                         
                         <?php echo $content; ?>
                         
