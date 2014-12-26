@@ -618,3 +618,64 @@ Stack trace:
 REQUEST_URI=/~BAWES/kuwaitisayings/index.php/category/images/photos/user3.png
 HTTP_REFERER=http://localhost/~BAWES/kuwaitisayings/index.php/category/1
 ---
+2014/12/26 21:29:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/saying".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/saying')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\kuwaitisayings\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/kuwaitisayings/index.php/api/saying
+---
+2014/12/26 21:29:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/sayings".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/sayings')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\kuwaitisayings\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/kuwaitisayings/index.php/api/sayings
+---
+2014/12/26 21:29:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/sayings".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/sayings')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\kuwaitisayings\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/kuwaitisayings/index.php/api/sayings
+---
+2014/12/26 21:30:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/sayings".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/sayings')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\kuwaitisayings\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/kuwaitisayings/index.php/api/sayings
+---
+2014/12/26 21:30:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/sayings".' in C:\wamp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/sayings')
+#1 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\kuwaitisayings\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/kuwaitisayings/index.php/api/sayings
+---
+2014/12/26 21:50:47 [error] [php] Array to string conversion (C:\wamp\www\kuwaitisayings\protected\controllers\ApiController.php:23)
+Stack trace:
+#0 C:\wamp\yii\framework\web\CController.php(286): ApiController->runAction()
+#1 C:\wamp\yii\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#2 C:\wamp\yii\framework\web\CWebApplication.php(282): ApiController->run()
+#3 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\kuwaitisayings\index.php(17): CWebApplication->run()
+REQUEST_URI=/kuwaitisayings/index.php/api/sayings
+2014/12/26 22:01:59 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\yii\framework\web\CWebApplication.php(282): CController->run('sayings')
+#4 C:\wamp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('api/sayings')
+#5 C:\wamp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\kuwaitisayings\index.php(17): CApplication->run()
+#7 {main}
+REQUEST_URI=/kuwaitisayings/index.php/api/sayings
+---
