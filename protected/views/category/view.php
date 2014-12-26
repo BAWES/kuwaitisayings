@@ -12,7 +12,7 @@ $this->menu=array(
 	array('label'=>'List Category', 'url'=>array('index')),
 	array('label'=>'Add Category', 'url'=>array('create')),
 	array('label'=>'Update Category', 'url'=>array('update', 'id'=>$model->category_id)),
-	array('label'=>'Delete Category', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->category_id),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Delete Category', 'url'=>array('delete','id'=>$model->category_id)),
 );
 ?>
 
