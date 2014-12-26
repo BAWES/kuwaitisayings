@@ -11,7 +11,7 @@ $this->breadcrumbs=array(
 $this->menu=array(
 	array('label'=>'Add Saying', 'url'=>array('create')),
         array('label'=>'Update Saying', 'url'=>array('update', 'id'=>$model->saying_id)),
-	array('label'=>'Delete Saying', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->saying_id),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Delete Saying', 'url'=>array('delete','id'=>$model->saying_id)),
 );
 ?>
 

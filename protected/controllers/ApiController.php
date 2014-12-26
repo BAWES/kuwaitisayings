@@ -43,8 +43,11 @@ class ApiController extends Controller {
             $request = new Request();
             $request->request_saying = $_POST["saying"];
             $request->request_response = $_POST["response"];
-            $request->save();
-            $output = "success";
+            $request->request_datetime = new CDbExpression("NOW()");
+            
+            if($request->save()){
+                $output = "success";
+            }else $output = print_r($request->errors,false);
         }else $output = "fail";
         
         echo json_encode($output, JSON_UNESCAPED_UNICODE);
