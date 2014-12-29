@@ -21,9 +21,11 @@ class ApiController extends Controller {
             //populate saying categories
             $categoryArray = array();
             $categories = $saying->categories;
-            foreach ($categories as $category) {
-                $categoryArray[$category->category_id] = $category->category_name;
-            }
+            if($categories){
+                foreach ($categories as $category) {
+                    $categoryArray[$category->category_id] = $category->category_name;
+                }
+            }else $categoryArray = '';
 
 
             $sayingOutput[$saying->saying_id] = array('saying' => $saying->saying_saying,
