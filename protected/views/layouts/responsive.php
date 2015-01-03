@@ -15,7 +15,7 @@
         <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/select2.css" rel="stylesheet" />
         <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/colorpicker.css" rel="stylesheet" />
         <link href="<?php echo Yii::app()->request->baseUrl; ?>/css/dropzone.css" rel="stylesheet" />
-        
+
         <style type="text/css">
             @import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
             .arabic{font-family: 'Droid Arabic Kufi', serif !important;}
@@ -29,7 +29,7 @@
     </head>
 
     <body>
-        
+
         <header>
             <div class="headerwrapper">
                 <div class="header-left">
@@ -42,31 +42,31 @@
                         </a>
                     </div>
                 </div><!-- header-left -->
-                
+
                 <div class="header-right">
-                    
+
                 </div><!-- header-right -->
-                
+
             </div><!-- headerwrapper -->
         </header>
-        
+
         <section>
             <div class="mainwrapper">
                 <div class="leftpanel">
                     <div class="media profile-left" style="min-height:20px; height:auto; padding:0; margin:0;">
                     </div>
-                    
+
                     <h5 class="leftpanel-title">Navigation</h5>
                     <ul class="nav nav-pills nav-stacked">
-                        <li class=""><a href="<?php echo Yii::app()->createUrl('saying/index');?>"><i class="fa fa-file-text"></i> <span>Sayings</span></a></li>
-                        <li><a href="<?php echo Yii::app()->createUrl('category/index');?>"><i class="fa fa-list"></i> <span>Categories</span></a></li>
-                        <li><a href="<?php echo Yii::app()->createUrl('request/index');?>"><i class="fa fa-list-alt"></i> <span>Requests</span></a></li>
-                        
-                        
+                        <li class=""><a href="<?php echo Yii::app()->createUrl('saying/index'); ?>"><i class="fa fa-file-text"></i> <span>Sayings</span></a></li>
+                        <li><a href="<?php echo Yii::app()->createUrl('category/index'); ?>"><i class="fa fa-list"></i> <span>Categories</span></a></li>
+                        <li><a href="<?php echo Yii::app()->createUrl('request/index'); ?>"><i class="fa fa-list-alt"></i> <span>Requests</span></a></li>
+
+
                     </ul>
-                    
+
                 </div><!-- leftpanel -->
-                
+
                 <div class="mainpanel">
                     <div class="pageheader">
                         <div class="media">
@@ -75,35 +75,35 @@
                             </div>
                             <div class="media-body">
                                 <?php if (isset($this->breadcrumbs)): ?>
-                <?php
-                $this->widget('zii.widgets.CBreadcrumbs', array(
-                    'links' => $this->breadcrumbs,
-                ));
-                ?><!-- breadcrumbs -->
-<?php endif ?>
-                                <h4><?php echo $this->pageTitle;?></h4>
+                                    <?php
+                                    $this->widget('zii.widgets.CBreadcrumbs', array(
+                                        'links' => $this->breadcrumbs,
+                                    ));
+                                    ?><!-- breadcrumbs -->
+                                <?php endif ?>
+                                <h4><?php echo $this->pageTitle; ?></h4>
                             </div>
                         </div><!-- media -->
                     </div>
-                    
+
                     <div class="contentpanel arabic">
-                        
+
                         <?php echo $content; ?>
-                        
+
                         <div id="sidebar">
-	<?php
-		$this->beginWidget('zii.widgets.CPortlet', array(
-			'title'=>'Operations',
-		));
-		$this->widget('zii.widgets.CMenu', array(
-			'items'=>$this->menu,
-			'htmlOptions'=>array('class'=>'operations'),
-		));
-		$this->endWidget();
-	?>
-	</div><!-- sidebar -->
+                            <?php
+                            $this->beginWidget('zii.widgets.CPortlet', array(
+                                'title' => 'Operations',
+                            ));
+                            $this->widget('zii.widgets.CMenu', array(
+                                'items' => $this->menu,
+                                'htmlOptions' => array('class' => 'operations'),
+                            ));
+                            $this->endWidget();
+                            ?>
+                        </div><!-- sidebar -->
                     </div>
-                    
+
                 </div>
             </div><!-- mainwrapper -->
         </section>
@@ -117,7 +117,7 @@
         <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/pace.min.js"></script>
         <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/retina.min.js"></script>
         <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.cookies.js"></script>
-        
+
         <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.autogrow-textarea.js"></script>
         <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.mousewheel.js"></script>
         <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.tagsinput.min.js"></script>
@@ -128,28 +128,37 @@
         <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/colorpicker.js"></script>
         <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/dropzone.min.js"></script>
 
+        <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.dataTables.min.js"></script>
+        <script src="//cdn.datatables.net/plug-ins/725b2a2115b/integration/bootstrap/3/dataTables.bootstrap.js"></script>
+        <script src="//cdn.datatables.net/responsive/1.0.1/js/dataTables.responsive.js"></script>
+        <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/select2.min.js"></script>
+
+
+
         <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/custom.js"></script>
         <script>
-            jQuery(document).ready(function() {
-                
+            jQuery(document).ready(function () {
+                jQuery('#basicTable').DataTable({
+                    responsive: true
+                });
                 // Tags Input
-                jQuery('#tags').tagsInput({width:'auto'});
-                 
+                jQuery('#tags').tagsInput({width: 'auto'});
+
                 // Textarea Autogrow
                 jQuery('#autoResizeTA').autogrow();
-                
+
                 // Spinner
                 var spinner = jQuery('#spinner').spinner();
                 spinner.spinner('value', 0);
-                
+
                 // Form Toggles
                 jQuery('.toggle').toggles({on: true});
-                
+
                 // Time Picker
                 jQuery('#timepicker').timepicker({defaultTIme: false});
                 jQuery('#timepicker2').timepicker({showMeridian: false});
                 jQuery('#timepicker3').timepicker({minuteStep: 15});
-                
+
                 // Date Picker
                 jQuery('#datepicker').datepicker();
                 jQuery('#datepicker-inline').datepicker();
@@ -157,58 +166,60 @@
                     numberOfMonths: 3,
                     showButtonPanel: true
                 });
-                
+
                 // Input Masks
                 jQuery("#date").mask("99/99/9999");
                 jQuery("#phone").mask("(999) 999-9999");
                 jQuery("#ssn").mask("999-99-9999");
-                
+
                 // Select2
                 jQuery("#select-basic, #select-multi").select2();
                 jQuery('#select-search-hide').select2({
                     minimumResultsForSearch: -1
                 });
-                
+
                 function format(item) {
-                    return '<i class="fa ' + ((item.element[0].getAttribute('rel') === undefined)?"":item.element[0].getAttribute('rel') ) + ' mr10"></i>' + item.text;
+                    return '<i class="fa ' + ((item.element[0].getAttribute('rel') === undefined) ? "" : item.element[0].getAttribute('rel')) + ' mr10"></i>' + item.text;
                 }
-                
+
                 // This will empty first option in select to enable placeholder
                 jQuery('select option:first-child').text('');
-                
+
                 jQuery("#select-templating").select2({
                     formatResult: format,
                     formatSelection: format,
-                    escapeMarkup: function(m) { return m; }
+                    escapeMarkup: function (m) {
+                        return m;
+                    }
                 });
-                
+
                 // Color Picker
-                if(jQuery('#colorpicker').length > 0) {
+                if (jQuery('#colorpicker').length > 0) {
                     jQuery('#colorSelector').ColorPicker({
-			onShow: function (colpkr) {
-			    jQuery(colpkr).fadeIn(500);
+                        onShow: function (colpkr) {
+                            jQuery(colpkr).fadeIn(500);
                             return false;
-			},
-			onHide: function (colpkr) {
+                        },
+                        onHide: function (colpkr) {
                             jQuery(colpkr).fadeOut(500);
                             return false;
-			},
-			onChange: function (hsb, hex, rgb) {
-			    jQuery('#colorSelector span').css('backgroundColor', '#' + hex);
-			    jQuery('#colorpicker').val('#'+hex);
-			}
+                        },
+                        onChange: function (hsb, hex, rgb) {
+                            jQuery('#colorSelector span').css('backgroundColor', '#' + hex);
+                            jQuery('#colorpicker').val('#' + hex);
+                        }
                     });
                 }
-  
+
                 // Color Picker Flat Mode
                 jQuery('#colorpickerholder').ColorPicker({
                     flat: true,
                     onChange: function (hsb, hex, rgb) {
-			jQuery('#colorpicker3').val('#'+hex);
+                        jQuery('#colorpicker3').val('#' + hex);
                     }
                 });
-                
-                
+
+
             });
         </script>
 

@@ -118,13 +118,13 @@ class SayingController extends Controller {
      * Manages all models.
      */
     public function actionIndex() {
-        $model = new Saying('search');
-        $model->unsetAttributes();  // clear any default values
-        if (isset($_GET['Saying']))
-            $model->attributes = $_GET['Saying'];
+        $criteria = new CDbCriteria();
+        $criteria->with = "categories";
+        
+        $sayings = Saying::model()->findAll($criteria);
 
         $this->render('index', array(
-            'model' => $model,
+            'sayings' => $sayings,
         ));
     }
 
