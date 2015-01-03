@@ -53,7 +53,8 @@
         <section>
             <div class="mainwrapper">
                 <div class="leftpanel">
-                    
+                    <div class="media profile-left" style="min-height:20px; height:auto; padding:0; margin:0;">
+                    </div>
                     
                     <h5 class="leftpanel-title">Navigation</h5>
                     <ul class="nav nav-pills nav-stacked">
