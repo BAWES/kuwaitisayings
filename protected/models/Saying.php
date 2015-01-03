@@ -36,9 +36,7 @@ class Saying extends CActiveRecord {
     }
 
     protected function beforeSave() {
-        if ($this->isNewRecord) {
-            $this->saying_datetime = new CDbExpression("NOW()");
-        }
+        $this->saying_datetime = new CDbExpression("NOW()");
 
         return parent::beforeSave();
     }
