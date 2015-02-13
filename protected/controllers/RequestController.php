@@ -110,13 +110,10 @@ class RequestController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$model=new Request('search');
-		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Request']))
-			$model->attributes=$_GET['Request'];
+		$requests = Request::model()->findAll();
 
 		$this->render('index',array(
-			'model'=>$model,
+			'requests'=>$requests,
 		));
 	}
 

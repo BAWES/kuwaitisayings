@@ -24,18 +24,18 @@
 		<?php echo $form->textField($model,'saying_saying',array('size'=>60)); ?>
 		<?php echo $form->error($model,'saying_saying'); ?>
 	</div>
-
+<br/>
 	<div class="row">
 		<?php echo $form->labelEx($model,'saying_response'); ?>
 		<?php echo $form->textField($model,'saying_response',array('size'=>60)); ?>
 		<?php echo $form->error($model,'saying_response'); ?>
 	</div>
-
+<br/><br/>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Save' : 'Save'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'اضافة' : 'اضافة', array('class'=>'btn btn-success btn-lg btn-block')); ?>
 	</div>
-
+<br/><br/>
 <?php $this->endWidget(); ?>
 
 </div><!-- form -->

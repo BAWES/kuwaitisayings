@@ -1,0 +1,72 @@
+[08-Jan-2015 00:07:42 Asia/Kuwait] PHP Fatal error:  Call to a member function delete() on a non-object in C:\wamp\www\kuwaitisayings\protected\controllers\SayingController.php on line 53
+[08-Jan-2015 00:07:42 Asia/Kuwait] PHP Stack trace:
+[08-Jan-2015 00:07:42 Asia/Kuwait] PHP   1. {main}() C:\wamp\www\kuwaitisayings\index.php:0
+[08-Jan-2015 00:07:42 Asia/Kuwait] PHP   2. CApplication->run() C:\wamp\www\kuwaitisayings\index.php:17
+[08-Jan-2015 00:07:42 Asia/Kuwait] PHP   3. CWebApplication->processRequest() C:\wamp\yii\framework\base\CApplication.php:180
+[08-Jan-2015 00:07:42 Asia/Kuwait] PHP   4. CWebApplication->runController() C:\wamp\yii\framework\web\CWebApplication.php:141
+[08-Jan-2015 00:07:42 Asia/Kuwait] PHP   5. CController->run() C:\wamp\yii\framework\web\CWebApplication.php:282
+[08-Jan-2015 00:07:42 Asia/Kuwait] PHP   6. CController->runActionWithFilters() C:\wamp\yii\framework\web\CController.php:265
+[08-Jan-2015 00:07:42 Asia/Kuwait] PHP   7. CFilterChain->run() C:\wamp\yii\framework\web\CController.php:291
+[08-Jan-2015 00:07:42 Asia/Kuwait] PHP   8. CInlineFilter->filter() C:\wamp\yii\framework\web\filters\CFilterChain.php:130
+[08-Jan-2015 00:07:42 Asia/Kuwait] PHP   9. CController->filterAccessControl() C:\wamp\yii\framework\web\filters\CInlineFilter.php:58
+[08-Jan-2015 00:07:42 Asia/Kuwait] PHP  10. CFilter->filter() C:\wamp\yii\framework\web\CController.php:1145
+[08-Jan-2015 00:07:42 Asia/Kuwait] PHP  11. CFilterChain->run() C:\wamp\yii\framework\web\filters\CFilter.php:40
+[08-Jan-2015 00:07:42 Asia/Kuwait] PHP  12. CController->runAction() C:\wamp\yii\framework\web\filters\CFilterChain.php:133
+[08-Jan-2015 00:07:42 Asia/Kuwait] PHP  13. CInlineAction->runWithParams() C:\wamp\yii\framework\web\CController.php:308
+[08-Jan-2015 00:07:42 Asia/Kuwait] PHP  14. CAction->runWithParamsInternal() C:\wamp\yii\framework\web\actions\CInlineAction.php:47
+[08-Jan-2015 00:07:42 Asia/Kuwait] PHP  15. ReflectionMethod->invokeArgs() C:\wamp\yii\framework\web\actions\CAction.php:108
+[08-Jan-2015 00:07:42 Asia/Kuwait] PHP  16. SayingController->actionView() C:\wamp\yii\framework\web\actions\CAction.php:108
+[08-Jan-2015 00:09:00 Asia/Kuwait] PHP Fatal error:  Call to a member function delete() on a non-object in C:\wamp\www\kuwaitisayings\protected\controllers\SayingController.php on line 53
+[08-Jan-2015 00:09:00 Asia/Kuwait] PHP Stack trace:
+[08-Jan-2015 00:09:00 Asia/Kuwait] PHP   1. {main}() C:\wamp\www\kuwaitisayings\index.php:0
+[08-Jan-2015 00:09:00 Asia/Kuwait] PHP   2. CApplication->run() C:\wamp\www\kuwaitisayings\index.php:17
+[08-Jan-2015 00:09:00 Asia/Kuwait] PHP   3. CWebApplication->processRequest() C:\wamp\yii\framework\base\CApplication.php:180
+[08-Jan-2015 00:09:00 Asia/Kuwait] PHP   4. CWebApplication->runController() C:\wamp\yii\framework\web\CWebApplication.php:141
+[08-Jan-2015 00:09:00 Asia/Kuwait] PHP   5. CController->run() C:\wamp\yii\framework\web\CWebApplication.php:282
+[08-Jan-2015 00:09:00 Asia/Kuwait] PHP   6. CController->runActionWithFilters() C:\wamp\yii\framework\web\CController.php:265
+[08-Jan-2015 00:09:00 Asia/Kuwait] PHP   7. CFilterChain->run() C:\wamp\yii\framework\web\CController.php:291
+[08-Jan-2015 00:09:00 Asia/Kuwait] PHP   8. CInlineFilter->filter() C:\wamp\yii\framework\web\filters\CFilterChain.php:130
+[08-Jan-2015 00:09:00 Asia/Kuwait] PHP   9. CController->filterAccessControl() C:\wamp\yii\framework\web\filters\CInlineFilter.php:58
+[08-Jan-2015 00:09:00 Asia/Kuwait] PHP  10. CFilter->filter() C:\wamp\yii\framework\web\CController.php:1145
+[08-Jan-2015 00:09:00 Asia/Kuwait] PHP  11. CFilterChain->run() C:\wamp\yii\framework\web\filters\CFilter.php:40
+[08-Jan-2015 00:09:00 Asia/Kuwait] PHP  12. CController->runAction() C:\wamp\yii\framework\web\filters\CFilterChain.php:133
+[08-Jan-2015 00:09:00 Asia/Kuwait] PHP  13. CInlineAction->runWithParams() C:\wamp\yii\framework\web\CController.php:308
+[08-Jan-2015 00:09:00 Asia/Kuwait] PHP  14. CAction->runWithParamsInternal() C:\wamp\yii\framework\web\actions\CInlineAction.php:47
+[08-Jan-2015 00:09:00 Asia/Kuwait] PHP  15. ReflectionMethod->invokeArgs() C:\wamp\yii\framework\web\actions\CAction.php:108
+[08-Jan-2015 00:09:00 Asia/Kuwait] PHP  16. SayingController->actionView() C:\wamp\yii\framework\web\actions\CAction.php:108
+[08-Jan-2015 00:10:35 Asia/Kuwait] PHP Fatal error:  Call to a member function delete() on a non-object in C:\wamp\www\kuwaitisayings\protected\controllers\SayingController.php on line 53
+[08-Jan-2015 00:10:35 Asia/Kuwait] PHP Stack trace:
+[08-Jan-2015 00:10:35 Asia/Kuwait] PHP   1. {main}() C:\wamp\www\kuwaitisayings\index.php:0
+[08-Jan-2015 00:10:35 Asia/Kuwait] PHP   2. CApplication->run() C:\wamp\www\kuwaitisayings\index.php:17
+[08-Jan-2015 00:10:35 Asia/Kuwait] PHP   3. CWebApplication->processRequest() C:\wamp\yii\framework\base\CApplication.php:180
+[08-Jan-2015 00:10:35 Asia/Kuwait] PHP   4. CWebApplication->runController() C:\wamp\yii\framework\web\CWebApplication.php:141
+[08-Jan-2015 00:10:35 Asia/Kuwait] PHP   5. CController->run() C:\wamp\yii\framework\web\CWebApplication.php:282
+[08-Jan-2015 00:10:35 Asia/Kuwait] PHP   6. CController->runActionWithFilters() C:\wamp\yii\framework\web\CController.php:265
+[08-Jan-2015 00:10:35 Asia/Kuwait] PHP   7. CFilterChain->run() C:\wamp\yii\framework\web\CController.php:291
+[08-Jan-2015 00:10:35 Asia/Kuwait] PHP   8. CInlineFilter->filter() C:\wamp\yii\framework\web\filters\CFilterChain.php:130
+[08-Jan-2015 00:10:35 Asia/Kuwait] PHP   9. CController->filterAccessControl() C:\wamp\yii\framework\web\filters\CInlineFilter.php:58
+[08-Jan-2015 00:10:35 Asia/Kuwait] PHP  10. CFilter->filter() C:\wamp\yii\framework\web\CController.php:1145
+[08-Jan-2015 00:10:35 Asia/Kuwait] PHP  11. CFilterChain->run() C:\wamp\yii\framework\web\filters\CFilter.php:40
+[08-Jan-2015 00:10:35 Asia/Kuwait] PHP  12. CController->runAction() C:\wamp\yii\framework\web\filters\CFilterChain.php:133
+[08-Jan-2015 00:10:35 Asia/Kuwait] PHP  13. CInlineAction->runWithParams() C:\wamp\yii\framework\web\CController.php:308
+[08-Jan-2015 00:10:35 Asia/Kuwait] PHP  14. CAction->runWithParamsInternal() C:\wamp\yii\framework\web\actions\CInlineAction.php:47
+[08-Jan-2015 00:10:35 Asia/Kuwait] PHP  15. ReflectionMethod->invokeArgs() C:\wamp\yii\framework\web\actions\CAction.php:108
+[08-Jan-2015 00:10:35 Asia/Kuwait] PHP  16. SayingController->actionView() C:\wamp\yii\framework\web\actions\CAction.php:108
+[08-Jan-2015 00:12:28 Asia/Kuwait] PHP Fatal error:  Call to a member function delete() on a non-object in C:\wamp\www\kuwaitisayings\protected\controllers\SayingController.php on line 53
+[08-Jan-2015 00:12:28 Asia/Kuwait] PHP Stack trace:
+[08-Jan-2015 00:12:28 Asia/Kuwait] PHP   1. {main}() C:\wamp\www\kuwaitisayings\index.php:0
+[08-Jan-2015 00:12:28 Asia/Kuwait] PHP   2. CApplication->run() C:\wamp\www\kuwaitisayings\index.php:17
+[08-Jan-2015 00:12:28 Asia/Kuwait] PHP   3. CWebApplication->processRequest() C:\wamp\yii\framework\base\CApplication.php:180
+[08-Jan-2015 00:12:28 Asia/Kuwait] PHP   4. CWebApplication->runController() C:\wamp\yii\framework\web\CWebApplication.php:141
+[08-Jan-2015 00:12:28 Asia/Kuwait] PHP   5. CController->run() C:\wamp\yii\framework\web\CWebApplication.php:282
+[08-Jan-2015 00:12:28 Asia/Kuwait] PHP   6. CController->runActionWithFilters() C:\wamp\yii\framework\web\CController.php:265
+[08-Jan-2015 00:12:28 Asia/Kuwait] PHP   7. CFilterChain->run() C:\wamp\yii\framework\web\CController.php:291
+[08-Jan-2015 00:12:28 Asia/Kuwait] PHP   8. CInlineFilter->filter() C:\wamp\yii\framework\web\filters\CFilterChain.php:130
+[08-Jan-2015 00:12:28 Asia/Kuwait] PHP   9. CController->filterAccessControl() C:\wamp\yii\framework\web\filters\CInlineFilter.php:58
+[08-Jan-2015 00:12:28 Asia/Kuwait] PHP  10. CFilter->filter() C:\wamp\yii\framework\web\CController.php:1145
+[08-Jan-2015 00:12:28 Asia/Kuwait] PHP  11. CFilterChain->run() C:\wamp\yii\framework\web\filters\CFilter.php:40
+[08-Jan-2015 00:12:28 Asia/Kuwait] PHP  12. CController->runAction() C:\wamp\yii\framework\web\filters\CFilterChain.php:133
+[08-Jan-2015 00:12:28 Asia/Kuwait] PHP  13. CInlineAction->runWithParams() C:\wamp\yii\framework\web\CController.php:308
+[08-Jan-2015 00:12:28 Asia/Kuwait] PHP  14. CAction->runWithParamsInternal() C:\wamp\yii\framework\web\actions\CInlineAction.php:47
+[08-Jan-2015 00:12:28 Asia/Kuwait] PHP  15. ReflectionMethod->invokeArgs() C:\wamp\yii\framework\web\actions\CAction.php:108
+[08-Jan-2015 00:12:28 Asia/Kuwait] PHP  16. SayingController->actionView() C:\wamp\yii\framework\web\actions\CAction.php:108

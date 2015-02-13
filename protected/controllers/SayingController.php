@@ -62,8 +62,11 @@ class SayingController extends Controller {
      * Creates a new model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      */
-    public function actionCreate() {
+    public function actionCreate($presetSaying = false, $presetResponse = false) {
         $model = new Saying;
+        
+        if($presetSaying) $model->saying_saying = $presetSaying;
+        if($presetResponse) $model->saying_response = $presetResponse;
 
         // Uncomment the following line if AJAX validation is needed
         // $this->performAjaxValidation($model);

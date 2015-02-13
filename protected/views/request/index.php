@@ -8,35 +8,46 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Request', 'url'=>array('create')),
+	//array('label'=>'Create Request', 'url'=>array('create')),
 );
-
-Yii::app()->clientScript->registerScript('search', "
-$('.search-button').click(function(){
-	$('.search-form').toggle();
-	return false;
-});
-$('.search-form form').submit(function(){
-	$('#request-grid').yiiGridView('update', {
-		data: $(this).serialize()
-	});
-	return false;
-});
-");
 ?>
 
+<table id="basicTable" class="table table-striped table-bordered responsive">
+    <thead class="">
+        <tr>
+            
+            <th>الرد</th>
+            <th>القول</th>
+            <th>الوقت</th>
+            <th style="width:100px">Approve</th>
+            <th style="width:100px">Reject</th>
+        </tr>
+    </thead>
 
-<?php $this->widget('zii.widgets.grid.CGridView', array(
-	'id'=>'request-grid',
-	'dataProvider'=>$model->search(),
-	'filter'=>$model,
-	'columns'=>array(
-		//'request_id',
-		'request_saying',
-		'request_response',
-		'request_datetime',
-		array(
-			'class'=>'CButtonColumn',
-		),
-	),
-)); ?>
+    <tbody>
+        
+            <?php
+            foreach($requests as $request){
+                $id = $request->request_id;
+                $sayingText = $request->request_saying;
+                $responseText = $request->request_response;
+                $categoryText = $request->request_datetime;
+                
+                $approveLink = Yii::app()->createUrl('saying/create',array('presetSaying'=>$sayingText, 'presetResponse'=>$responseText));
+                $rejectLink = Yii::app()->createUrl('request/delete',array('id'=>$id));
+                
+                echo "
+                <tr>
+                    <td>$responseText</td>
+                    <td>$sayingText</td>
+                    <td>$categoryText</td>
+                    <td><a class='label label-primary fa fa-pencil' href='$approveLink'> Approve</a></td>
+                    <td><a class='label label-danger fa fa-pencil' href='$rejectLink'> Reject</a></td>
+                </tr>
+                ";
+            }
+            ?>
+            
+        
+    </tbody>
+</table>
